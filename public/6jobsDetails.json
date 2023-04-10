@@ -2,7 +2,7 @@
   "jobs": [
     {
       "id": 1,
-      "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+      "company_logo": "https://i.ibb.co/phyG0Yt/google-1-1-1-1.png",
       "job_title": "Software Engineer",
       "company_name": "Google",
       "remote_or_onsite": "Remote",
@@ -20,7 +20,7 @@
     },
     {
       "id": 2,
-      "company_logo": "https://www.meta.com/static/images/meta-logo.svg",
+      "company_logo": "https://i.ibb.co/H2yms7c/netflix-4-1.png",
       "job_title": "Marketing Manager",
       "company_name": "Meta",
       "remote_or_onsite": "Onsite",
@@ -38,7 +38,7 @@
     },
     {
       "id": 3,
-      "company_logo": "https://www.amazon.com/gp/navigation/render-nav-m.html?ie=UTF8&ref_=nav_logo",
+      "company_logo": "https://i.ibb.co/Vxj4VX7/Group-10021.png",
       "job_title": "Data Scientist",
       "company_name": "Amazon",
       "remote_or_onsite": "Remote",
@@ -56,7 +56,7 @@
     },
     {
       "id": 4,
-      "company_logo": "https://www.uber.com/us/en/brand/downloads/logos/",
+      "company_logo": "https://i.ibb.co/phyG0Yt/google-1-1-1-1.png",
       "job_title": "Product Manager",
       "company_name": "Netflix",
       "remote_or_onsite": "Onsite",
@@ -74,7 +74,7 @@
     },
     {
       "id": 5,
-      "company_logo": "https://brand.netflix.com/en/assets/netflix-logo/",
+      "company_logo": "https://i.ibb.co/H2yms7c/netflix-4-1.png",
       "job_title": "Graphic Designer",
       "company_name": "IBM",
       "remote_or_onsite": "Onsite",

@@ -1,5 +1,6 @@
 import React from "react";
-import JobCategory from "./JobCategory";
+import JobCategory from "./JobCategory/JobCategory";
+import FeaturedJobs from "./Featured Jobs/FeaturedJobs";
 
 const Header = () => {
   return (
@@ -28,6 +29,7 @@ const Header = () => {
         </div>
       </div>
     <JobCategory></JobCategory>
+    <FeaturedJobs></FeaturedJobs>
     </div>
   );
   
