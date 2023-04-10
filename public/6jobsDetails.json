@@ -1,0 +1,112 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+      "job_title": "Software Engineer",
+      "company_name": "Google",
+      "remote_or_onsite": "Remote",
+      "location": "New York, NY",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$100,000 - $150,000",
+      "job_description": "We are seeking a skilled software engineer to join our team and help build innovative solutions for our clients. The ideal candidate has experience with Python, React, and AWS, and is passionate about solving complex problems.",
+      "job_responsibility": "Develop and maintain software applications using Python, React, and AWS. Collaborate with team members to design and implement new features. Write clean, efficient, and well-documented code. Troubleshoot and debug issues as they arise.",
+      "educational_requirements": "Bachelor's or Master's degree in Computer Science or a related field",
+      "experiences": "3+ years of experience in software engineering",
+      "contact_information": {
+        "phone": "555-1234",
+        "email": "jobs@examplecompany1.com"
+      }
+    },
+    {
+      "id": 2,
+      "company_logo": "https://www.meta.com/static/images/meta-logo.svg",
+      "job_title": "Marketing Manager",
+      "company_name": "Meta",
+      "remote_or_onsite": "Onsite",
+      "location": "Los Angeles, CA",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$80,000 - $120,000",
+      "job_description": "We are seeking an experienced marketing manager to lead our team and develop and implement successful marketing strategies. The ideal candidate has a strong understanding of digital marketing and is able to manage and motivate a team of marketing professionals.",
+      "job_responsibility": "Develop and implement successful marketing strategies to increase brand awareness and drive sales. Manage and motivate a team of marketing professionals. Analyze data and metrics to track performance and adjust strategies as needed. Collaborate with other teams to ensure a consistent brand image across all channels.",
+      "educational_requirements": "Bachelor's or Master's degree in Marketing, Business, or a related field",
+      "experiences": "5+ years of experience in marketing, with at least 2 years in a management role",
+      "contact_information": {
+        "phone": "555-5678",
+        "email": "jobs@examplecompany2.com"
+      }
+    },
+    {
+      "id": 3,
+      "company_logo": "https://www.amazon.com/gp/navigation/render-nav-m.html?ie=UTF8&ref_=nav_logo",
+      "job_title": "Data Scientist",
+      "company_name": "Amazon",
+      "remote_or_onsite": "Remote",
+      "location": "San Francisco, CA",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$120,000 - $180,000",
+      "job_description": "We are seeking a talented data scientist to join our team and help us analyze complex data sets and build predictive models. The ideal candidate has experience with machine learning, statistical analysis, and data visualization.",
+      "job_responsibility": "Analyze complex data sets and build predictive models. Collaborate with other teams to identify business opportunities and provide data-driven insights. Develop and maintain data infrastructure and tools. Communicate findings and recommendations to stakeholders.",
+      "educational_requirements": "Bachelor's or Master's degree in Computer Science, Statistics, or a related field, with a focus on data science or machine learning",
+      "experiences": "3+ years of experience in data science or a related field",
+      "contact_information": {
+        "phone": "555-9012",
+        "email": "jobs@examplecompany3.com"
+      }
+    },
+    {
+      "id": 4,
+      "company_logo": "https://www.uber.com/us/en/brand/downloads/logos/",
+      "job_title": "Product Manager",
+      "company_name": "Netflix",
+      "remote_or_onsite": "Onsite",
+      "location": "Boston, MA",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$100,000 - $140,000",
+      "job_description": "We are seeking a passionate product manager to lead the development of innovative products that meet the needs of our customers. The ideal candidate has experience working in a cross-functional team and is able to balance customer needs with business goals.",
+      "job_responsibility": "Lead the development of innovative products that meet the needs of our customers. Collaborate with cross-functional teams to define product requirements and prioritize features. Conduct market research to identify trends and opportunities. Define and track key metrics to measure product success.",
+      "educational_requirements": "Bachelor's or Master's degree in Business, Engineering, or a related field",
+      "experiences": "5+ years of experience in product management or a related field",
+      "contact_information": {
+        "phone": "555-3456",
+        "email": "jobs@examplecompany4.com"
+      }
+    },
+    {
+      "id": 5,
+      "company_logo": "https://brand.netflix.com/en/assets/netflix-logo/",
+      "job_title": "Graphic Designer",
+      "company_name": "IBM",
+      "remote_or_onsite": "Onsite",
+      "location": "Chicago, IL",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$60,000 - $80,000",
+      "job_description": "We are seeking a creative and skilled graphic designer to help us develop compelling visual assets for our brand and products. The ideal candidate has experience with Adobe Creative Suite and a strong portfolio of previous design work.",
+      "job_responsibility": "Develop and execute creative design concepts for various projects, including print and digital media. Collaborate with other teams to ensure a consistent brand image across all channels. Use feedback from stakeholders to refine designs and deliver high-quality final products.",
+      "educational_requirements": "Bachelor's or Master's degree in Graphic Design or a related field",
+      "experiences": "3+ years of experience in graphic design or a related field",
+      "contact_information": {
+        "phone": "555-7890",
+        "email": "jobs@examplecompany5.com"
+      }
+    },
+    {
+      "id": 6,
+      "company_logo": "https://www.ibm.com/design/language/resources/logo-library/",
+      "job_title": "Sales Representative",
+      "company_name": "Uber",
+      "remote_or_onsite": "Remote",
+      "location": "Miami, FL",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$50,000 - $80,000",
+      "job_description": "We are seeking a motivated and customer-focused sales representative to help us expand our customer base and meet our sales targets. The ideal candidate has experience in sales and a strong track record of meeting or exceeding sales goals.",
+      "job_responsibility": "Generate new leads and convert them into customers. Build and maintain strong relationships with existing customers. Understand customer needs and provide solutions that meet those needs. Meet or exceed sales targets on a consistent basis.",
+      "educational_requirements": "Bachelor's or Master's degree in Business, Marketing, or a related field",
+      "experiences": "3+ years of experience in sales or a related field",
+      "contact_information": {
+        "phone": "555-2345",
+        "email": "jobs@examplecompany6.com"
+      }
+    }
+  ]
+}

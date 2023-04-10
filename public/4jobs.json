@@ -1,0 +1,33 @@
+{
+  "category": {
+    "logo": "https://example.com/category_logo.png",
+    "name": "Engineering",
+    "jobs_available": "23,456"
+  },
+  "cards": [
+    {
+      "logo": "https://example.com/job_logo_1.png",
+      "title": "Software Engineer",
+      "company": "ABC Inc.",
+      "location": "San Francisco, CA"
+    },
+    {
+      "logo": "https://example.com/job_logo_2.png",
+      "title": "Mechanical Engineer",
+      "company": "XYZ Corp.",
+      "location": "Chicago, IL"
+    },
+    {
+      "logo": "https://example.com/job_logo_3.png",
+      "title": "Electrical Engineer",
+      "company": "123 Co.",
+      "location": "New York, NY"
+    },
+    {
+      "logo": "https://example.com/job_logo_4.png",
+      "title": "Civil Engineer",
+      "company": "456 LLC",
+      "location": "Los Angeles, CA"
+    }
+  ]
+}
