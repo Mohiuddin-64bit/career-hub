@@ -1,4 +1,5 @@
 import React from "react";
+import JobCategory from "./JobCategory";
 
 const Header = () => {
   return (
@@ -26,10 +27,10 @@ const Header = () => {
           />
         </div>
       </div>
+    <JobCategory></JobCategory>
     </div>
   );
-
-  // <a href="https://ibb.co/6ZVbPRR"><img src="https://i.ibb.co/MhWpVDD/P3-OLGJ1-copy-1.png" alt="P3-OLGJ1-copy-1" border="0"></a>
+  
 };
 
 export default Header;

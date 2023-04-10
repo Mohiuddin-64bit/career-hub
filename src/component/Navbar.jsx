@@ -32,7 +32,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link to='/'><a className="btn btn-ghost normal-case text-xl">Job Hunter</a></Link>
+          <Link to='/'><a className="btn btn-ghost normal-case text-3xl font-bold">Job Hunter</a></Link>
         </div>
         <div className="navbar-center hidden lg:flex gap-6">
           <Link className=" text-lg text-gray-500">Statistics</Link>
