@@ -8,6 +8,10 @@ const FeaturedJobs = () => {
       .then((res) => res.json())
       .then((data) => setFeatures(data.jobs));
   }, []);
+
+  const handleId = (id) => {
+    console.log(id);
+  };
   return (
     <>
       <div className="mt-12 text-center">
@@ -17,9 +21,10 @@ const FeaturedJobs = () => {
           need. Its your future
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-8 mt-12 justify-between">
-        {features.map((feature) => (
+      <div className="grid lg:grid-cols-2 gap-8 mt-12 justify-center lg:justify-between">
+        {features.slice(0, 4).map((feature) => (
           <FeaturedJobsDetails
+            handleId={handleId}
             key={feature.id}
             feature={feature}
           ></FeaturedJobsDetails>

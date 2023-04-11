@@ -19,7 +19,7 @@ const JobCategory = () => {
           need. Its your future
         </p>
       </div>
-      <div className="flex justify-between mt-12">
+      <div className="lg:flex  justify-between mt-12">
       {jobs.map((job) => <JobCategoryDetails key={job.id} job={job}></JobCategoryDetails>)}
       </div>
     </div>

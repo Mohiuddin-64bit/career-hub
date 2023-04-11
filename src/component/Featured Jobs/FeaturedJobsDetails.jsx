@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocation, faMoneyBill } from "@fortawesome/free-solid-svg-icons";
 
-const FeaturedJobsDetails = ({ feature }) => {
+const FeaturedJobsDetails = ({ feature, handleId }) => {
   const {
     company_logo,
     job_title,
+    id,
     company_name,
     remote_or_onsite,
     location,
@@ -27,7 +28,7 @@ const FeaturedJobsDetails = ({ feature }) => {
             {fulltime_or_parttime}
           </p>
         </div>
-        <div className="flex gap-3">
+        <div className="lg:flex gap-3">
           <p>
           <FontAwesomeIcon icon={faMoneyBill} /> {salary}
           </p>
@@ -35,7 +36,7 @@ const FeaturedJobsDetails = ({ feature }) => {
             <FontAwesomeIcon icon={faLocation} /> {location}
           </p>
         </div>
-        <Link>
+        <Link to={`jobDetails/${id}`}>
           <button className="btn btn-primary mt-5">View Details</button>
         </Link>
       </div>

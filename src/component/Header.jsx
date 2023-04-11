@@ -5,9 +5,9 @@ import FeaturedJobs from "./Featured Jobs/FeaturedJobs";
 const Header = () => {
   return (
     <div>
-      <div className="flex mt-20 justify-between">
-        <div  >
-          <div className="w-2/4">
+      <div className="lg:flex mt-20 justify-between px-5 lg:px-0">
+        <div>
+          <div className="lg:w-2/4">
             <h1 className="text-6xl font-extrabold tracking-widest">
               One Step Closer To Your{" "}
               <span className="text-primary">Dream Job</span>
@@ -17,7 +17,9 @@ const Header = () => {
               you need. Its your future. Come find it. Manage all your job
               application from start to finish.
             </p>
-            <button className="btn btn-primary mt-5">Get Started</button>
+            <div className="text-center lg:text-left">
+            <button className="btn btn-primary my-5">Get Started</button>
+            </div>
           </div>
         </div>
         <div className="mx-auto">
