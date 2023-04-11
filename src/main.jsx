@@ -5,6 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Header from "./component/Header";
 import JobDetails from "./component/JobDetails";
+import AppliedJobs from "./component/AppliedJobs";
 
 
 const router = createBrowserRouter([
@@ -20,7 +21,13 @@ const router = createBrowserRouter([
         path: 'jobDetails/:id',
         element: <JobDetails></JobDetails>,
         loader: () => fetch('/6jobsDetails.json')
+      },
+      {
+        path: 'appliedJobs',
+        element: <AppliedJobs></AppliedJobs>,
+        loader: () => fetch('/6jobsDetails.json')
         
+
       }
     ]
   },

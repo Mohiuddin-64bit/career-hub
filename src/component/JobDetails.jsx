@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { addToDb } from "./utilities/fakedb";
+
 import {
   faCalendarDay,
   faLocation,
@@ -27,6 +29,10 @@ const JobDetails = () => {
     return <div>Loading...</div>;
   }
 
+const handleApply = () => {
+  addToDb(id)
+}
+
   const {
     company_logo,
     job_title,
@@ -42,7 +48,6 @@ const JobDetails = () => {
     contact_information,
   } = job;
 
-  console.log(contact_information);
   return (
     <>
     <h1 className="font-bold text-center text-2xl lg:text-6xl mb-12 lg:mb-48">Job Details</h1>
@@ -96,8 +101,8 @@ const JobDetails = () => {
             </p>
           </div>
           <div className="text-center mt-4">
-            <Link>
-              <button className="btn btn-wide btn-primary">Apply Now</button>
+            <Link to='../appliedJobs'>
+              <button onClick={handleApply} className="btn btn-wide btn-primary">Apply Now</button>
             </Link>
           </div>
         </div>

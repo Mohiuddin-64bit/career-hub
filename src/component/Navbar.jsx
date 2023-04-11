@@ -29,7 +29,7 @@ const Navbar = () => {
             >
               <li>
                 <Link className=" text-lg text-gray-500">Statistics</Link>
-                <Link className=" text-lg text-gray-500">Applied Jobs</Link>
+                <Link to='/appliedJobs' className=" text-lg text-gray-500">Applied Jobs</Link>
                 <Link className=" text-lg text-gray-500">Blog</Link>
               </li>
             </ul>
@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex gap-6">
           <Link className=" text-lg text-gray-500">Statistics</Link>
-          <Link className=" text-lg text-gray-500">Applied Jobs</Link>
+          <Link to='appliedJobs' className=" text-lg text-gray-500">Applied Jobs</Link>
           <Link className=" text-lg text-gray-500">Blog</Link>
         </div>
         <div className="navbar-end">
