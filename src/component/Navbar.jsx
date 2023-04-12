@@ -39,7 +39,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex gap-6">
-          <Link className=" text-lg text-gray-500">Statistics</Link>
+          <Link to='statistics' className=" text-lg text-gray-500">Statistics</Link>
           <Link to='appliedJobs' className=" text-lg text-gray-500">Applied Jobs</Link>
           <Link className=" text-lg text-gray-500">Blog</Link>
         </div>

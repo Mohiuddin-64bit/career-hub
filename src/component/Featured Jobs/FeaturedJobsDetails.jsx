@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocation, faMoneyBill } from "@fortawesome/free-solid-svg-icons";
 
-const FeaturedJobsDetails = ({ feature, handleId }) => {
+const FeaturedJobsDetails = ({ feature   }) => {
   const {
     company_logo,
     job_title,

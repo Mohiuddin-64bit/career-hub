@@ -3,15 +3,14 @@ import FeaturedJobsDetails from "./FeaturedJobsDetails";
 
 const FeaturedJobs = () => {
   const [features, setFeatures] = useState([]);
+  const [showAll, setShowAll] = useState(false);
+  const displayAllData = showAll ? features : features.slice(0, 4);
   useEffect(() => {
     fetch("6jobsDetails.json")
       .then((res) => res.json())
       .then((data) => setFeatures(data.jobs));
   }, []);
 
-  const handleId = (id) => {
-    console.log(id);
-  };
   return (
     <>
       <div className="mt-12 text-center">
@@ -22,16 +21,15 @@ const FeaturedJobs = () => {
         </p>
       </div>
       <div className="grid lg:grid-cols-2 gap-8 mt-12 justify-center lg:justify-between">
-        {features.slice(0, 4).map((feature) => (
+        {displayAllData.map((feature) => (
           <FeaturedJobsDetails
-            handleId={handleId}
             key={feature.id}
             feature={feature}
           ></FeaturedJobsDetails>
         ))}
       </div>
       <div className="text-center">
-        <button className="btn btn-primary mt-12">sell all</button>
+        <button onClick={() => setShowAll(true)} className="btn btn-primary mt-12">See All</button>
       </div>
     </>
   );
