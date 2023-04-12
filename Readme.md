@@ -25,25 +25,7 @@ The website consists of three pages:
 
 ## Live Demo
 
-Click on this [link](https://your-username.github.io/job-hunter/) to see a live demo of the website.
-
-## Repository Link
-
-Click on this [link](https://github.com/your-username/job-hunter) to access the GitHub repository.
-
-## Screenshots
-
-Add some screenshots of the website to showcase its features.
-
-## Contributing
-
-If you want to contribute to this project, please follow these steps:
-
-1. Fork this repository.
-2. Create a new branch.
-3. Make your changes and commit them.
-4. Push to the new branch.
-5. Create a pull request.
+Click on this [link](https://melodious-fenglisu-9ed1c2.netlify.app/) to see a live demo of the website.
 
 ## License
 
